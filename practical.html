@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Timetable (Semester I)</title>
+
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .title {
+            background-color: rgb(250, 251, 251);
+            font-size: 20px;
+        }
+
+        th {
+            background-color: rgb(137, 232, 253);
+        }
+
+        .lunch {
+            background-color: lightyellow;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th colspan="5" class="title">
+                Class Timetable (Semester I)
+            </th>
+        </tr>
+
+        <tr>
+            <th>Day</th>
+            <th>9:00–10:00</th>
+            <th>10:00–11:00</th>
+            <th>11:00–12:00</th>
+            <th>12:00–1:00</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>HTML</td>
+            <td>Mathematics</td>
+            <td>Programming</td>
+            <td rowspan="5" class="lunch">
+                Lunch Break<br><br>
+                (12:00–1:00)
+            </td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>Mathematics</td>
+            <td>HTML</td>
+            <td>English</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>Programming</td>
+            <td>English</td>
+            <td>HTML</td>
+        </tr>
+
+        <tr>
+            <td>Thursday</td>
+            <td>English</td>
+            <td>Programming</td>
+            <td>Mathematics</td>
+        </tr>
+
+        <tr>
+            <td>Friday</td>
+            <td>HTML</td>
+            <td>English</td>
+            <td>Programming</td>
+        </tr>
+    </table>
+
+</body>
+</html>
